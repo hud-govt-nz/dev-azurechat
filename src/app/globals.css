@@ -4,48 +4,49 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 136 80% 29%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-    --radius: 0.5rem;
+    --background: 200 20% 95%; /* Light teal-gray background */
+    --foreground: 220 15% 20%; /* Dark charcoal gray text for contrast */
+    --card: 200 15% 98%; /* Very light teal-gray for cards */
+    --card-foreground: 220 15% 20%; /* Charcoal gray text for readability on cards */
+    --popover: 200 15% 98%; /* Same as card background for consistency */
+    --popover-foreground: 220 15% 20%;
+    --primary: 40 60% 50%; /* Soft gold accent for primary elements */
+    --primary-foreground: 220 15% 20%; /* Darker text on primary accents */
+    --secondary: 200 20% 90%; /* Light teal for secondary elements */
+    --secondary-foreground: 220 15% 30%; /* Slightly darker gray text */
+    --muted: 200 20% 94%; /* Light muted background */
+    --muted-foreground: 220 10% 40%; /* Medium gray for muted text */
+    --accent: 200 20% 90%; /* Light teal accent */
+    --accent-foreground: 220 15% 20%; /* Charcoal gray text for accent elements */
+    --destructive: 0 70% 60%; /* Softer red for destructive actions */
+    --destructive-foreground: 0 0% 100%; /* White for contrast */
+    --border: 200 20% 85%; /* Light border color matching the theme */
+    --input: 200 20% 95%; /* Very light teal-gray for input backgrounds */
+    --ring: 40 60% 50%; /* Soft gold for focus rings */
+    --radius: 0.5rem; /* Keeping border radius consistent */
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 136 80% 42%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9;
+    --background: 195 100% 12.7%; /* Dark teal background */
+    --foreground: 0 0% 100%; /* White text for contrast */
+    --card: 195 100% 12.7%; /* Matches background color */
+    --card-foreground: 0 0% 100%; /* White text for cards */
+    --popover: 195 100% 12.7%; /* Same as card for uniformity */
+    --popover-foreground: 0 0% 100%;
+    --primary: 40 70% 50%; /* Light gold (for accents and arrows) */
+    --primary-foreground: 195 100% 12.7%; /* Dark teal for contrast with gold */
+    --secondary: 200 25% 30%; /* Lighter teal for secondary elements */
+    --secondary-foreground: 0 0% 100%; /* White for readability */
+    --muted: 200 25% 20%; /* Slightly lighter teal for muted backgrounds */
+    --muted-foreground: 0 0% 80%; /* Light gray for muted text */
+    --accent: 200 25% 30%; /* Lighter teal for accents */
+    --accent-foreground: 0 0% 100%; /* White text */
+    --destructive: 0 70% 50%; /* Red tone for destructive actions */
+    --destructive-foreground: 0 0% 100%; /* White text for contrast */
+    --border: 200 25% 25%; /* Medium teal for borders */
+    --input: 200 25% 25%; /* Matching input background */
+    --ring: 40 70% 50%; /* Gold for focus rings */
+    --radius: 0.5rem; /* Keeping border radius the same */
   }
 }
 
