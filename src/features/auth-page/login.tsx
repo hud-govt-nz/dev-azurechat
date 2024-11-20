@@ -20,7 +20,7 @@ interface LoginProps {
 
 export const LogIn: FC<LoginProps> = (props) => {
   return (
-    <Card className="flex gap-2 flex-col min-w-[300px]">
+    <Card className="flex gap-2 flex-col min-w-[300px] mx-auto">
       <CardHeader className="gap-2">
         <CardTitle className="text-2xl flex gap-2">
           <Avatar className="h-8 w-8">
