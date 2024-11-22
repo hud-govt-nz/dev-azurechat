@@ -65,7 +65,7 @@ const configureIdentityProvider = () => {
           username: { label: "Username", type: "text", placeholder: "dev" },
           password: { label: "Password", type: "password" },
         },
-        async authorize(credentials, req): Promise<any> {
+        async authorize(credentials): Promise<any> {
           // You can put logic here to validate the credentials and return a user.
           // We're going to take any username and make a new user with it
           // Create the id as the hash of the email as per userHashedId (helpers.ts)
@@ -101,7 +101,7 @@ export const options: NextAuthOptions = {
       }
       return token;
     },
-    async session({ session, token, user }) {
+    async session({ session, token }) {
       session.user.isAdmin = token.isAdmin as boolean;
       return session;
     },
